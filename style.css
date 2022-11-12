@@ -1,0 +1,65 @@
+h1, .recipeList, figcaption {
+    text-align: center;
+}
+
+.recipeList{
+    padding-left: 0;
+}
+
+html {
+    padding: 20px;
+}
+
+img{
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto;  
+}
+
+.imgDiv{
+    display: grid;
+    place-items: center;
+    width: auto;  
+}
+
+body{
+
+    color: #368A8A;
+}
+
+a {
+    color: black;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100px;
+}
+
+#footerContainer {
+    position:relative;
+    width:100%;
+    height:100px;
+}
+
+#imginthefooter {       
+    background: url("https://images.wallpaperscraft.com/image/single/frog_leaf_grass_peek_40135_2560x1024.jpg");
+    min-height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: auto;
+    width: 100%;
+
+    /* Needed to position the navbar */
+    position: relative;
+    margin: 0px;
+}​​​​​​​​​
